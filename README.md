@@ -1,7 +1,6 @@
 # Driver Monitoring System
 
-## Dependecies Required
-  
+### Dependecies Required
 Python  
 ### Libraries Required
   * opencv
