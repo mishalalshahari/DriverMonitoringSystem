@@ -17,10 +17,7 @@ import winsound
 import threading
 Window.size=(300,500)
 
-
-
 class App(MDApp,Image):
-
 
     def start(self):
         self.run = True
@@ -61,7 +58,6 @@ class App(MDApp,Image):
 
         face_model = dlib.get_frontal_face_detector()
         landmark_model = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
-
 
         yawn_thresh = 35
         ptime = 0
@@ -153,4 +149,3 @@ class App(MDApp,Image):
         self.thread.stop()
 
 App().run()
-

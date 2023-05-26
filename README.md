@@ -1,11 +1,12 @@
-Prerequisites for project execution:
+# Driver Monitoring System
 
-  * Python Programming Language 
-  * opencv-python library installed 
-  * dlib library installed 
-  * scipy library installed 
-  * imutils library installed 
+## Dependecies Required
+  
+Python  
+### Libraries Required
+  * opencv
+  * dlib
+  * scipy
+  * imutils
   * winsound 
   * kivymd 
-  
-
